@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Rubik&display=swap');
+$orange-color: #F57059;
+$green-color:#05796B;
+$blue-color:#00E1F0;
+body {
+  margin: 0;
+  font-family:"Manrope",sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+        list-style-type: none;
+        &img {
+          right:10rem;
+        }
+    }
+}
+}
+.homegroup{
+  display: none;
+  @media screen and (min-width:991px) {  
+    display: block; 
+    background-image: url("../public/homenew.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80% center;
+  }
+}
+.green-clr{
+  color: #01966B;
+}
+.blue-clr{
+  color:#3734A9;
+}
+.orange-clr{
+  color: #F57059;
+}
+.f-700{
+  font-weight: 700;
+}
+.f-800{
+  font-size: 43px;
+  font-weight: 800 !important;
+}
+.log-btn{
+    width: 9rem;
+    height:3rem;
+    background-color: #fff;
+    color: #000;
+    border-radius: 2rem;
+    border: none;
+  &.selected{
+    background-color: #F57059;
+    color: #ffffff;
+    border-radius: 0.578rem;
+  }
+}
+.about{
+  .mail-input{
+    background-color: #ffffff;
+    box-shadow: 0px 4.35199px 134.912px rgba(0, 0, 0, 0.1);
+    p{
+      margin-bottom: 0.5rem;
+    }
+    button{
+      height: 3rem;
+      width: 9rem;
+      background-color: #1B1C31;
+      color: #ffffff;
+    }
+  }
+}
+.App{
+  background-image: url("../public/wave.svg");
+  background-repeat: no-repeat;
+  .main-head{
+    font-size: 60px;
+    font-weight: 800;
+  }
+
+}
+.business{
+  background-image: url("../public/b-shape.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  @media screen and (max-width:991px) {
+    background-color: #F5F8FF;
+    padding: 1.2rem !important;
+  }
+}
+.img-card{
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 20px;
+  position: relative;
+  top: 50%;
+  img{
+    width: 100%;
+    position: absolute;
+  }
+}
+.org-btn{
+  background-color: #F57059;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  height: 52px;
+  padding: 16px 20px 16px 20px;
+  border: none;
+  border-radius: 10px;
+}
+.green-btn{
+  background-color: #05796B;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  height: 52px;
+  padding: 16px 20px 16px 20px;
+  border: none;
+  border-radius: 10px;
+}
+.btn-pill{
+  border-radius: 50px;
+  padding: 16px 30px;
+}
+.eagle{
+  background-image: url("../public/eagle.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding: 14rem;
+  @media screen and (max-width:991px) {
+    background-color: #F5F8FF;
+    padding: 3rem;
+  }
+}
+.roadmap{
+  overflow: hidden;
+  padding: 3rem 0rem 3rem 5rem !important;
+  @media screen and (max-width:991px) {
+    padding :3rem 8% !important;
+  }
+}
+.timeshape {
+  @media screen and (min-width:992px) {
+    &::after {
+      content: "";
+      display: block;
+      position: relative;
+      background-color: #F5F8FF;
+      height: 400px;
+      width: 400px;
+      bottom: -198px;
+      border-radius: 50%;
+      left: 10rem;
+      top: 1.9rem;
+      z-index: -1;
+    } 
+  }
+}
+.chooseus{
+  background-color: #05796B;
+  color: #ffffff;
+  padding: 3rem 8% !important;
+  input{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    opacity: 0.2;
+    background-color: #F2F3F4;
+    margin-bottom: 10px;
+    border: none !important;
+  }
+    button {
+      background-color: #F57059;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 600;
+      height: 52px;
+      padding: 16px 20px 16px 20px;
+      border: none;
+      width: 100%;
+      border-radius: 5px;
+  }
+}
+.footer{
+  .footertitle{
+    font-weight: 700 !important;
+    font-size: 21px;
+    color: #181433;
+  }
+  li,.copyright{
+    font-weight: 500;
+    font-size: 16px;
+    color: #181433;
+  }
+  input{
+    background-color: #F9F9F9;
+    height: 52px;
+    border:none !important;
+    width: 70%;
+  }
+  button{
+    background-color: #00E1F0;
+    color: #ffffff;
+    height: 52px;
+    border: none !important;
+    width: 30%;
+  }
+}
+.timeline{
+  @media screen and (min-width:992px) {
+      position: relative;
+      top: -280px;
+  
+      .timechild:nth-child(1) {
+        position: absolute;
+        left: 10rem;
+        top: 22rem;
+      }
+  
+      .timechild:nth-child(2) {
+        position: absolute;
+        left: 39rem;
+        top: 13rem;
+      }
+  
+      .timechild:nth-child(3) {
+        position: absolute;
+        left: 60rem;
+        top: -2.5rem;
+      }
+    }
+}
+.chooseusinputs{
+  max-width: 371px;
+  width: 100%;
+}
